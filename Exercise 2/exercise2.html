@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holly Grange Primary School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+        <img class="logo" src="logo.jpg" alt="logo">
+        <p class="head1" style="font-family: 'Architects Daughter', cursive;color: tomato;">HOLLY GRANGE</p>
+        <p class="head2" style="font-family: 'Architects Daughter', cursive;color: darkgrey;">PRIMARY SCHOOL</p>
+        
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" placeholder="Search site..." />
+            </div> 
+            <button type="button" class="btn-search" id="btn-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        
+        
+         
+          <ul class="nav" id="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="color: white;margin-left: 410px;padding-right: 83px;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white;padding-right: 83px;">Our School</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white;padding-right: 83px;">FPSA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white;padding-right: 83px;">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;padding-right: 83px;">Parents</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;padding-right: 83px;">Vacancies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;padding-right: 85px;">Contact</a>
+              </li>
+          </ul>
+          <img class="image" src="img2.jpg" alt="student-image">
+          <div class="container1" id="container1">
+              <p class="news" id="news">Latest News</p>
+              <ul class="list">
+                  <li id="li"><span>schooling doesn’t begin until 8 in others.</span></li>
+                  <li id="li1"><span>schooling doesn’t begin until 8 in others.</span></li>
+                  <li id="li2"><span>schooling doesn’t begin until 8 in others.</span></li>
+              </ul>
+          </div>
+
+          <div class="container2" id="container2">
+            <p class="header2" id="header2">Welcome to Holly Grange Primary School</p>
+            <img src="img3.jpg" class="float-left" alt="..." width="150" height="60%" style="margin-top: -2%; margin-left: 3%;">
+            <p class="content1"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus lorem nec nulla tincidunt vestibulum. <br><br></b>Malesuada consectetur metus semper. Nunc pulvinar diam purus, ac euismod mauris posuere vel.</p>
+          </div>
+
+
+          <div class="footer">
+            <img src="logo-footer.jpg" class="float-left" alt="..." style="margin-left: 4%;">
+            <button type="button" class="btn-back">BACK</button>
+            <button type="button" class="btn-start">GET STARTED NOW</button>
+          </div>
+          <div class="container3" id="container3">
+            <p style="font-size: larger;"><b>Choose Your Colour Scheme</b></p><hr style="width: 19%;height: 3px;background-color: black;">
+           <button style="width: 11%;height: 6%; border: none;background-color: white;margin-left: 3%;" onclick="myfunction()"> <img class="ss1" id="ss1" src="screenshot5.jpg"></button><br><br>
+           <button style="width: 11%;height: 6%; border: none;background-color: white;margin-left: 3%;" onclick="myfunction1()"> <img class="ss2" src="screenshot4.jpg"></button><br><br>
+           <button style="width: 11%;height: 6%; border: none;background-color: white;margin-left: 3%;" onclick="myfunction2()"> <img class="ss3" src="screenshot3.jpg"></button><br><br>
+           <button style="width: 11%;height: 6%; border: none;background-color: white;margin-left: 3%;" onclick="myfunction3()"> <img class="ss4" src="screenshot2.jpg"></button><br><br>
+           <button style="width: 11%;height: 6%; border: none;background-color: white;margin-left: 3%;" onclick="myfunction4()"> <img class="ss5" src="Screenshot1.jpg"></button>
+          </div>
+          <button class="arrow" id="arrow" onclick="myfunction0()"><i class="fa-solid fa-chevron-left"></i></button>
+    <script>
+      function myfunction0(){
+          document.getElementById('container3').style.display = "none";
+      }
+      function myfunction(){
+        document.getElementById('btn-search').style.backgroundColor = "#008060";
+        document.getElementById('nav').style.backgroundColor = "#008060";
+        document.getElementById('container2').style.borderColor = "#008060";
+        document.getElementById('header2').style.backgroundColor = "#008060";
+        document.getElementById('container1').style.borderColor = "#99e600";
+        document.getElementById('news').style.backgroundColor = "#99e600";
+        document.getElementById('li').style.color = "#99e600";
+        document.getElementById('li1').style.color = "#99e600";
+        document.getElementById('li2').style.color = "#99e600";
+      }
+      function myfunction1(){
+        document.getElementById('btn-search').style.backgroundColor = "#000099";
+        document.getElementById('nav').style.backgroundColor = "#000099";
+        document.getElementById('container2').style.borderColor = "#000099";
+        document.getElementById('header2').style.backgroundColor = "#000099";
+        document.getElementById('container1').style.borderColor = "#016597";
+        document.getElementById('news').style.backgroundColor = "#016597";
+        document.getElementById('li').style.color = "#016597";
+        document.getElementById('li1').style.color = "#016597";
+        document.getElementById('li2').style.color = "#016597";
+      }
+      function myfunction2(){
+        document.getElementById('btn-search').style.backgroundColor = "#af090d";
+        document.getElementById('nav').style.backgroundColor = "#af090d";
+        document.getElementById('container2').style.borderColor = "#af090d";
+        document.getElementById('header2').style.backgroundColor = "#af090d";
+        document.getElementById('container1').style.borderColor = "#f7781b";
+        document.getElementById('news').style.backgroundColor = "#f7781b";
+        document.getElementById('li').style.color = "#f7781b";
+        document.getElementById('li1').style.color = "#f7781b";
+        document.getElementById('li2').style.color = "#f7781b";
+      }
+      function myfunction3(){
+        document.getElementById('btn-search').style.backgroundColor = "#fe33ff";
+        document.getElementById('nav').style.backgroundColor = "#fe33ff";
+        document.getElementById('container2').style.borderColor = "#fe33ff";
+        document.getElementById('header2').style.backgroundColor = "#fe33ff";
+        document.getElementById('container1').style.borderColor = "#8685ad";
+        document.getElementById('news').style.backgroundColor = "#8685ad";
+        document.getElementById('li').style.color = "#8685ad";
+        document.getElementById('li1').style.color = "#8685ad";
+        document.getElementById('li2').style.color = "#8685ad";
+      }
+      function myfunction4(){
+        document.getElementById('btn-search').style.backgroundColor = "#3285ff";
+        document.getElementById('nav').style.backgroundColor = "#3285ff";
+        document.getElementById('container2').style.borderColor = "#3285ff";
+        document.getElementById('header2').style.backgroundColor = "#3285ff";
+        document.getElementById('container1').style.borderColor = "#ffaa81";
+        document.getElementById('news').style.backgroundColor = "#ffaa81";
+        document.getElementById('li').style.color = "#ffaa81";
+        document.getElementById('li1').style.color = "#ffaa81";
+        document.getElementById('li2').style.color = "#ffaa81";
+      }
+    </script>
+</body>
+</html>
