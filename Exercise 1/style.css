@@ -1,0 +1,108 @@
+.body-bg{
+    height: 80vh;
+    width: 84vw;
+    margin-top: 4%;
+    margin-left: 5%;
+    box-shadow: 7px 7px 7px 7px #00000026; 
+        background: linear-gradient(
+        to right, #FFC300 0%, #FFC300 20%, #ffffff 20%, #ffffff 100%
+    );
+}
+html{
+    background-color: #FFC300;
+}
+.nav{
+    margin-top: -2%;
+    margin-left: 50%;
+    list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: nowrap;
+}
+.nav-link{
+    color: black;
+}
+.nav a::after{
+content: '';
+width:0;
+height: 5px;
+background: #FFC300;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.nav a:hover::after{
+width: 100%;
+}
+ .fa-align-left{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+ .fa-magnifying-glass{
+    padding-left: 5%;
+}
+.img1{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.fashion{
+    background-color: darkgray;
+    width: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: larger;
+    margin-top: -35%;
+    margin-left: 45%;
+    justify-content: center;
+}
+.head{
+    margin-top: -2%;
+    margin-left: 45%;
+    font-size: 500%;
+    font-weight: 600;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.para{
+    margin-top: -2%;
+    margin-left: 45%;
+    color: darkgray;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-weight: 400;
+}
+.read{
+    margin-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 750;
+}
+.news{
+    margin-top: 6%;
+    margin-left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 750;
+}
+.search{
+    margin-left: 45%;
+    height: 10%;
+    box-shadow: 7px 7px 7px 7px #00000026;
+    border: none;
+    width: 20%;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+.sub{
+    height: 10%;
+    box-shadow: 7px 7px 7px 7px #00000026;
+    border: none;
+    width: 10%;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFC300;
+    margin-left: -0.5%;
+}
