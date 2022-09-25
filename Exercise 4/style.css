@@ -1,0 +1,244 @@
+body{
+    overflow-x: hidden;
+}
+
+.message-img{
+    border-radius:50%;
+    width: 4%;
+    margin-left: 80%;
+    position: absolute;
+    top: 2%;
+    }
+
+    a{
+        font-size: 12px !important;
+    }
+
+    .btn-logo{
+        margin-left: 5%;
+        position: absolute;
+        top: 2%;
+        width: 4%;
+        height: 50px;
+        background-color: #1b384d;
+        border-radius: 100% 100% 100% 100%; 
+        border: none;
+    }
+
+    .logo-img{
+        width: 70px;
+        height: 100px;
+        margin-top: -72%;
+        margin-left: -32%;
+    }
+
+    .web{
+        background-color: #132434;
+        height: 70vh;
+    }
+
+    .text-white{
+        text-decoration: none;
+    }
+
+    .text1{
+        color: #374e5c;
+        margin-left: 40%;
+        margin-top: -30%;
+    }
+
+    .text2{
+        color: white;
+        font-size: 5vw;
+        margin-left: 33%;
+    }
+
+    .text3{
+        color: #374e5c;
+        margin-left: 29%;
+    
+    }
+
+    .c {
+        margin-left: 30px;
+        width: 30vw;
+    }
+
+    .paint-img{
+        width: 40px;
+        height: 40px;
+        margin-top: 12%;
+        margin-left: -6%;
+        border-radius: 50%;
+        transform: rotate(47deg);
+    }
+
+    .setting-img{
+        width: 40px;
+        height: 40px;
+        margin-top: 2%;
+        margin-left: -6%;
+        border-radius: 50%;
+        transform: rotate(47deg);
+    }
+
+    .wp-img{
+        width: 80px;
+        height: 80px;
+        margin-top: -40%;
+        margin-left: -40%;
+        border-radius: 50%;
+        transform: rotate(47deg);
+    }
+
+    .phone-img{
+        width: 50px;
+        height: 50px;
+        margin-top: -10%;
+        margin-left: -11%;
+        border-radius: 50%;
+        transform: rotate(41deg);
+    }
+
+    .flask-img{
+        width: 50px;
+        height: 50px;
+        margin-top: -1%;
+        margin-left: -2%;
+        border-radius: 50%;
+        transform: rotate(43deg);
+    }
+
+.btn-icon1{
+    width: 40%;
+    height: 70px;
+    margin-left: 28%;
+    margin-top: 10%;
+    border-radius: 50%;
+    border:10px solid;
+	border-color:  #0b1a27 #0b1a27 #9ba3a2 #9ba3a2;
+    transform: rotate(-41deg);
+}
+    .bg-class{
+        background-color: #e6e6e6;
+        width: 100vw;
+        margin-top: -14.3%;
+        height: 28vh;
+    }
+
+    .button{
+        width: 200px;
+        height:50px;
+        background-color: orangered;
+        color:white;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 30%;
+        margin-top: 1%;
+        border:none;
+    }
+    
+    .button1{
+        width: 300px;
+        height:50px;
+        background-color: #060a3d;
+        color:white;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left:5px;
+        border:none;
+    }
+    .buttoncirle{
+        border-radius:50%;
+        padding: 5px;
+        margin-left: -21%;
+        margin-top: 4px;
+    width:50px;
+    background-color: #f0f0f0;
+    }
+
+
+    .view{
+        background-color: #0f2c3e;
+        width: 22.9vw;
+        height:6vh;
+        margin-top: 3%;
+        padding-left: 5%;
+        border-radius: 5px;
+    }
+    .btn-view{
+        margin-left: 33.5%;
+        background-color: #f0f0f0;
+        border: none;
+        height: 4vh;
+        color: #0f2c3e;
+        border-radius: 5px;
+    }
+
+    input,
+    input::-webkit-input-placeholder {
+       padding-top: 3px;
+       margin-bottom: 5%;
+    }
+    .textarea{
+        margin-bottom: 5%;
+        height: 15vh;
+        width: 27vw;
+    }
+    .submit{
+        background-color: #fa570f;
+        color: white;
+        border: none;
+        width: 8vw;
+        font-size: small;
+        margin-left: 70%;
+        border-radius: 5px;
+        height: 5vh;
+    }
+   
+    .btn-logo1{
+        margin-top: 0.2%;
+        margin-left: 4%;
+        position: absolute;
+        top: 2237px;
+        width: 4%;
+        height: 50px;
+        background-color: #1b384d;
+        border-radius: 100%; 
+        border: solid 6px transparent;
+        border-color:  #0b1a27 #0b1a27 #9ba3a2 #9ba3a2;
+        transform: rotate(143deg);
+    }
+    .btn-logo2{
+        margin-top: -0.2%;
+        margin-left: 90%;
+        position: absolute;
+        top: 2237px;
+        width: 4%;
+        height: 60px;
+        background-color: #fa570f;
+        border-radius: 100%; 
+        border: solid 6px transparent;
+        border-color:  #0b1a27 #0b1a27 #9ba3a2 #9ba3a2;
+        color: white;
+        transform: rotate(136deg);
+    }
+    .logo-img1{
+        width: 70px;
+        height: 100px;
+        margin-top: -102%;
+        margin-left: -62%;
+    }
+
+    .navbar-brand:hover{
+        color: #fa501f!important;
+    }
+    .c1:hover{
+        background-color: #fa501f!important;
+        color: white;
+    }
+    .btn-icon1:hover{
+        border-color: #fa501f!important;
+    }
+
+    
